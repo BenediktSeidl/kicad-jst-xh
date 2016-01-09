@@ -11,7 +11,7 @@ def get_template_variables(pins):
         drill = 1
     else:
         drill = 0.9
-    offset = 0.25
+    offset = 0.5
     raster_width = 2.5
     pin_offset_y = 2.35
     pin_offset_x = 2.45
