@@ -1,4 +1,6 @@
 (module {{name}} (layer F.Cu) (tedit 56902445)
+  (descr "JST XH series connector, {{name}}")
+  (tags "connector jst xh")
   (fp_text reference REF** (at 4.5 4.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -25,7 +27,7 @@
   (pad {{i+1}} thru_hole circle (at {{raster_width*i}} 0) (size 1.5 1.5) (drill {{drill}}) (layers *.Cu *.Mask F.SilkS))
 {%- endfor %}
 
-  (model ./packages3d/{{name}}.wrl
+  (model ./kicad-jst-xh.3dshapes/{{name}}.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937007874 0.3937007874 0.3937007874))
     (rotate (xyz 0 0 0))

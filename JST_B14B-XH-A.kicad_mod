@@ -1,4 +1,6 @@
 (module JST_B14B-XH-A (layer F.Cu) (tedit 56902445)
+  (descr "JST XH series connector, JST_B14B-XH-A")
+  (tags "connector jst xh")
   (fp_text reference REF** (at 4.5 4.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -35,7 +37,7 @@
   (pad 13 thru_hole circle (at 30.0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (pad 14 thru_hole circle (at 32.5 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
 
-  (model ./packages3d/JST_B14B-XH-A.wrl
+  (model ./kicad-jst-xh.3dshapes/JST_B14B-XH-A.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937007874 0.3937007874 0.3937007874))
     (rotate (xyz 0 0 0))
